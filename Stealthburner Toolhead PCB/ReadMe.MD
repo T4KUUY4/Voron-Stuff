@@ -41,6 +41,8 @@ Let´s go over the Features:
 
 ## LGX (coming soon...)
 
+<br>
+
 # Probe Port
 
 The Probe port can be used for Klicky or an inductive probe.
