@@ -14,10 +14,11 @@ Let´s go over the Features:
 
 1. 14pin + 4 pin Molex Microfit 3.0
 2. Fully customizable WS2812B status LED (configurable with Klipper to your printer status for example) (Only when 5V + Signal is supplied via the Molex 4 pin )
-3. Full support for Stealthburner LEDS (Only when 5V + Signal is supplied via the Molex 4 pin )
-4. Probe port for Klicky or inductive probes (Instructions below)
-5. Hotend Fan + Part cooling fan port
-6. Heater cartridge Molex Microfit 3.0  2 pin + thermistor port (JST-XH)
+3. Chamber Thermistor
+4. Full support for Stealthburner LEDS (Only when 5V + Signal is supplied via the Molex 4 pin )
+5. Probe port for Klicky or inductive probes (Instructions below)
+6. Hotend Fan + Part cooling fan port
+7. Heater cartridge Molex Microfit 3.0  2 pin + thermistor port (JST-XH)
 
 # Installation
 
