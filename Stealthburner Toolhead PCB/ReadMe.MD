@@ -44,13 +44,13 @@ Let´s go over the Features:
 The Probe port can be used for Klicky or an inductive probe.
 Follow the instructions for your probe below
 
-* Klicky
+## Klicky
 1. Bridge the gap on the bottom right pads with solder to route the signal cable directly without using the bat85 (NEEDS TO BE REMOVED!!!)
 2. Crimp the 2 cables from your klicky with JST-XH crimps and plug them into the left (GND) and the middle pin (SIGNAL) of a male 3 pin JST-XH Cable
 3. Plug in the connector and configure your PROBE PIN, which you have chosen earlier while wiring up the cables, in your config. 
 4. DONE!
 
-* Inductive
+## Inductive
 1. Insert and solder BAT85 Diode
 2. Remove solder bridge of bottom right pads if they are bridged.
 3. Crimp the 3 cables of your probe with JST-XH Crimps (According to your probes wire colors) and plug them in the correct order into your male 3 pin JST-XH (LEFT = GND | MIDDLE = SIGNAL | RIGHT = 24V)
