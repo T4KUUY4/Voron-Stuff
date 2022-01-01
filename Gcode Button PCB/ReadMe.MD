@@ -10,11 +10,11 @@ To sum it up:
 <br>
 
 Pin Mapping:
-*** Button1:  D2 
+``` Button1:  D2 
     Button2:  D3
     Button3:  D4
     Button4:  D5
     Button5:  D6
     .... you should get it by now...
     Button10: D11 
-***
+```
