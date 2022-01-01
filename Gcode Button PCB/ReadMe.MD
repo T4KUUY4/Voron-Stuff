@@ -9,7 +9,7 @@ To sum it up:
 
 <br>
 
-Pin Mapping:
+# Pin Mapping:
 ``` 
     Button1:  D2 
     Button2:  D3
