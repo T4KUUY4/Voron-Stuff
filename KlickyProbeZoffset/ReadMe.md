@@ -18,7 +18,7 @@
 <br>`variable_z_endstop_y: 0`
 ### Why change variable_z_endstop_ to 0 on both axis?
 If a separate Z endstop switch is in use, specify the coordinates of the switch here (Voron). Set to 0 to have the probe move to center of bed
-<br> 3. Open your printer.cfg
+<br>3. Open your printer.cfg
 4. Comment out or Replace in `[stepper_z]`
 <br>`endstop_pin: `
 <br>with 
