@@ -34,4 +34,3 @@
 ## Important Notes & Tips
 1. Always test your freshly set up z offset on the outer edges of your print surface. Incase anything goes wrong, you will only scratch the edge and not the middle. 
 2. Your z-offset will change when you swap nozzles. This is the only time you have to recalibrate z-offset
-3. 
