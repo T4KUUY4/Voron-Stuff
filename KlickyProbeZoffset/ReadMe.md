@@ -13,9 +13,9 @@
 2. Replace the following lines:
 <br>`variable_z_endstop_x: 1000`
 <br>`variable_z_endstop_y: 1000`
-with 
-`variable_z_endstop_x: 0`
-`variable_z_endstop_y: 0`
+<br>with 
+<br>`variable_z_endstop_x: 0`
+<br>`variable_z_endstop_y: 0`
 3. Open your printer.cfg
 4. Comment out or Replace in `[stepper_z]`
 `endstop_pin: `
