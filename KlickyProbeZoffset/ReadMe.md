@@ -1,5 +1,5 @@
 
-# Klicky Probe as Endstop
+# Klicky Probe as Endstop with constant Z-Offset
 ## Benefits
 1. Any buildplate thickness
 2. Only one variable: Nozzle to switch distance, instead of z-endstop pin, switch body and nozzle
