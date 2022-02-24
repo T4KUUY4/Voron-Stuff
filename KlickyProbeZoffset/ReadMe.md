@@ -18,15 +18,15 @@
 <br>`variable_z_endstop_y: 0`
 3. Open your printer.cfg
 4. Comment out or Replace in `[stepper_z]`
-`endstop_pin: `
-with 
-`endstop_pin: probe:z_virtual_endstop`
+<br>`endstop_pin: `
+<br>with 
+<br>`endstop_pin: probe:z_virtual_endstop`
 
 5. Comment out `position_endstop`
 6. Set your probe offsets in `[probe]` section
-	`x_offset: 0`
-	`y_offset: 19.75`
-`z_offset: 6.42`
+	<br>`x_offset: 0`
+	<br>`y_offset: 19.75`
+<br>`z_offset: 6.42`
 
 7. Calibrate your z-offset the old fashioned paper way. Make sure to `SAVE TO PROBE` and not `SAVE TO ENDSTOP`
 8. Enjoy :) 
