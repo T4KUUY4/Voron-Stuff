@@ -16,9 +16,6 @@
 <br>with 
 <br>`variable_z_endstop_x: 0`
 <br>`variable_z_endstop_y: 0`
-### Why change variable_z_endstop_ to 0 on both axis?
-If a separate Z endstop switch is in use, specify the coordinates of the switch here (Voron). Set to 0 to have the probe move to center of bed
-
 
 3. Open your printer.cfg
 4. Comment out or Replace in `[stepper_z]`
@@ -34,6 +31,9 @@ If a separate Z endstop switch is in use, specify the coordinates of the switch 
 
 7. Calibrate your z-offset the old fashioned paper way. Make sure to `SAVE TO PROBE` and not `SAVE TO ENDSTOP`
 8. Enjoy :) 
+
+## Why change variable_z_endstop_ to 0 on both axis?
+* If a separate Z endstop switch is in use, specify the coordinates of the switch here (Voron). Set to 0 to have the probe move to center of bed
 
 ## What if I swap my Nozzle
 1. If you decide to swap nozzles, recalibrate your z-offset
