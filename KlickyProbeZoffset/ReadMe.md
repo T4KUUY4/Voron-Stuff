@@ -31,6 +31,9 @@
 7. Calibrate your z-offset the old fashioned paper way. Make sure to `SAVE TO PROBE` and not `SAVE TO ENDSTOP`
 8. Enjoy :) 
 
+## What if I swap my Nozzle
+1. If you decide to swap nozzles, recalibrate your z-offset
+
 ## Important Notes & Tips
 1. Always test your freshly set up z offset on the outer edges of your print surface. Incase anything goes wrong, you will only scratch the edge and not the middle. 
 2. Your z-offset will change when you swap nozzles. This is the only time you have to recalibrate z-offset
