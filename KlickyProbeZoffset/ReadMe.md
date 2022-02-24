@@ -34,8 +34,8 @@
 
 ## Why change variable_z_endstop_ to 0 on both axis?
 `#If a separate Z endstop switch is in use,` 
- `#specify the coordinates of the switch here (Voron). `
- `#Set to 0 to have the probe move to center of bed`
+ <br>`#specify the coordinates of the switch here (Voron). `
+<br> `#Set to 0 to have the probe move to center of bed`
 
 ## What if I swap my Nozzle
 1. If you decide to swap nozzles, recalibrate your z-offset
