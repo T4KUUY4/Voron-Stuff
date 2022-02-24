@@ -11,11 +11,11 @@
 ## How to set up
 1. Open your klicky-variables.cfg
 2. Replace the following lines:
-	`variable_z_endstop_x: 1000`
-	`variable_z_endstop_y: 1000`
-	with 
-	`variable_z_endstop_x: 0`
-	`variable_z_endstop_y: 0`
+`variable_z_endstop_x: 1000`
+`variable_z_endstop_y: 1000`
+with 
+`variable_z_endstop_x: 0`
+`variable_z_endstop_y: 0`
 3. Open your printer.cfg
 4. Comment out or Replace in `[stepper_z]`
 `endstop_pin: `
