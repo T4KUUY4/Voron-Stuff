@@ -7,72 +7,49 @@
 3. Easy to set up
 
 ## Drawbacks
-<<<<<<< HEAD
-1. Your z-offset will change when you swap nozzles. This is the only time you have to recalibrate z-offset
-2. No Automatic Z-Offset possible
-## How to set up
-1. Open your klicky-variables.cfg
-2. Replace the following lines:
-<br>`variable_z_endstop_x: 1000`
-<br>`variable_z_endstop_y: 1000`
-<br>with 
-<br>`variable_z_endstop_x: 0`
-<br>`variable_z_endstop_y: 0`
-
-3. Open your printer.cfg
-4. Comment out or Replace in `[stepper_z]`
-<br>`endstop_pin: `
-<br>with 
-<br>`endstop_pin: probe:z_virtual_endstop`
-=======
 1. Your Z-offset will change when you swap nozzles (unless you swap in a nozzle with identical height to the old one). This is the only time **you have to recalibrate your Z-offset!**
 2. No automatic Z-offset possible.
->>>>>>> b7ddbcb (Update formatting)
 
 ## How to set it up
 
 ### In klicky-variables.cfg
 1. Replace the following lines:
   ```python
-variable_z_endstop_x: 1000
-variable_z_endstop_y: 1000
+  variable_z_endstop_x: 1000
+  variable_z_endstop_y: 1000
   ```  
-with  
+  with  
   ```python
-variable_z_endstop_x: 0
-variable_z_endstop_y: 0
+  variable_z_endstop_x: 0
+  variable_z_endstop_y: 0
   ```  
-Why change variable_z_endstop_ to 0 on both axis?  
-```bash
-# if a separate Z endstop switch is in use, 
-# specify the coordinates of the switch here (Voron). 
-# Set to 0 to have the probe move to center of bed
-```
+  #### Why change variable_z_endstop_ to 0 on both axis?  
+  ```bash
+  # if a separate Z endstop switch is in use, 
+  # specify the coordinates of the switch here (Voron). 
+  # Set to 0 to have the probe move to center of bed
+  ```
 2. Open your printer.cfg
 3. Comment out or Replace in `[stepper_z]`  
-      endstop_pin:  
+  ```python
+  endstop_pin:  
+  ```
   with  
-      endstop_pin: probe:z_virtual_endstop
+  ```python
+  endstop_pin: probe:z_virtual_endstop
+  ```
+
 4. Comment out `position_endstop`
 5. Set your probe offsets in `[probe]` section  
-      x_offset: 0
-      y_offset: 19.75
-      z_offset: 6.42
+  ```python
+  x_offset: 0
+  y_offset: 19.75
+  z_offset: 6.42
+  ```
 
 7. Calibrate your z-offset the old fashioned paper way. Make sure to `SAVE TO PROBE` and not `SAVE TO ENDSTOP`!
 8. Enjoy :) 
 
-<<<<<<< HEAD
-## Why change variable_z_endstop_ to 0 on both axis?
-`#If a separate Z endstop switch is in use,` 
- <br>`#specify the coordinates of the switch here (Voron). `
-<br> `#Set to 0 to have the probe move to center of bed`
-
-## What if I swap my Nozzle
-1. If you decide to swap nozzles, recalibrate your z-offset
-
-=======
->>>>>>> b7ddbcb (Update formatting)
 ## Important Notes & Tips
 
 Always test your freshly-set-up Z-offset on the outer edges of your print surface. If anything goes wrong, you will only scratch the edge and not the middle.
