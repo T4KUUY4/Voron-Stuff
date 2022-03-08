@@ -13,7 +13,7 @@
 ## How to set it up
 
 ### In klicky-variables.cfg
-1. Replace the following lines:
+1. Replace the following lines:  
   ```python
   variable_z_endstop_x: 1000
   variable_z_endstop_y: 1000
@@ -23,14 +23,14 @@
   variable_z_endstop_x: 0
   variable_z_endstop_y: 0
   ```  
-  #### Why change variable_z_endstop_ to 0 on both axis?  
+  **Why change variable_z_endstop_ to 0 on both axes?**  
   ```bash
   # if a separate Z endstop switch is in use, 
   # specify the coordinates of the switch here (Voron). 
   # Set to 0 to have the probe move to center of bed
   ```
 2. Open your printer.cfg
-3. Comment out or Replace in `[stepper_z]`  
+3. Comment out or replace in `[stepper_z]`  
   ```python
   endstop_pin:  
   ```
@@ -38,7 +38,6 @@
   ```python
   endstop_pin: probe:z_virtual_endstop
   ```
-
 4. Comment out `position_endstop`
 5. Set your probe offsets in `[probe]` section  
   ```python
@@ -46,9 +45,8 @@
   y_offset: 19.75
   z_offset: 6.42
   ```
-
-7. Calibrate your z-offset the old fashioned paper way. Make sure to `SAVE TO PROBE` and not `SAVE TO ENDSTOP`!
-8. Enjoy :) 
+6. Calibrate your z-offset the old fashioned paper way. Make sure to `SAVE TO PROBE` and not `SAVE TO ENDSTOP`!
+7. Enjoy :)
 
 ## Important Notes & Tips
 
@@ -56,4 +54,6 @@ Always test your freshly-set-up Z-offset on the outer edges of your print surfac
 
 ### What if I swap my nozzle?
 
-If you decide to swap nozzles, unless your new nozzle is exactly the same height as the old one, **you need to recalibrate your Z-offset.**
+- If your new nozzle is longer than your old one, you need to *decrease* your `[probe] z_offset`.
+- If your new nozzle is shorter than your old one, you need to *increase* your `[probe] z_offset`.
+- If the new nozzle and old nozzle are the same exact length and you have hot-tightened the new nozzle securely against the heatbreak, you can reuse the current value. No changes are needed in this case.
