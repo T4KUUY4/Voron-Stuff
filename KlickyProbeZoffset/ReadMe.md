@@ -12,6 +12,9 @@
 
 ## How to set it up
 
+### Important notes:
+If you are currently using Auto-z (z_calibrate), you need to disable it. 
+
 ### In klicky-variables.cfg
 1. Replace the following lines:  
   ```python
