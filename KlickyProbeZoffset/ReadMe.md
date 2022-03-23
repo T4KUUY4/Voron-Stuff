@@ -7,7 +7,7 @@
 3. Easy to set up
 
 ## Drawbacks
-1. Your Z-offset will change when you swap nozzles (unless you swap in a nozzle with identical height to the old one). This is the only time **you have to recalibrate your Z-offset!**
+1. Your Z-offset will change when you swap nozzles (unless you swap in a nozzle with identical height to the old one). This is the only time **you have to recalibrate your Z-offset!** (here is a nozzle length Database we´ve made: https://nozzles.takuya.tech/)
 2. No automatic Z-offset possible.
 
 ## How to set it up
