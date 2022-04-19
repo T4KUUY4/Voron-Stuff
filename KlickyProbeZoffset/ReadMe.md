@@ -50,7 +50,7 @@ If you are currently using Auto-z (z_calibrate), you need to disable it.
   ```
 6. Calibrate your z-offset the old fashioned paper way. Make sure to `SAVE TO PROBE` and not `SAVE TO ENDSTOP`!
   ### Note
-   If your ```[probe]``` section is included in printer.cfg from another file, ```SAVE_CONFIG``` will not work and you will need to update the ```[probe]``` z_offset     manually!
+   If your ```[probe]``` section is included in the printer.cfg from another file, ```SAVE_CONFIG``` will not work and you will need to update the ```[probe]``` z_offset     manually!
    <br>
    <br>
 7. Enjoy :)
