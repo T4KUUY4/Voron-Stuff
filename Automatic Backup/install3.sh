@@ -6,7 +6,7 @@ sudo touch /home/$USER/.smbcreds
 sudo mkdir /mnt/backup
 
 read -p "Enter FULL shared folder path. Example: \\192.168.1.7\PrinterBackups\V2: " -r fullpath
-echo "$fullpath /mnt/backup cifs users,credentials=/home/$USER/.smb,uid=1000,gid=1000,vers=2.0 0 0" | sudo tee -a /etc/fstab
+echo "$fullpath /mnt/backup cifs users,credentials=/home/$USER/.smbcreds,uid=1000,gid=1000,vers=2.0 0 0" | sudo tee -a /etc/fstab
 
 read -p "Enter newly created username for shared folder: " shareduser
 read -p "Enter password for newly created use for shared folder: " sharedpass
