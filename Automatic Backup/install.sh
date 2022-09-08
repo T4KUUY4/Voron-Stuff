@@ -2,7 +2,7 @@ ECHO "Takuyas Auto Backup Installer"
 cd /home/$USER/ 
 sudo wget https://raw.githubusercontent.com/T4KUUY4/Voron-Stuff/main/Automatic%20Backup/backup.sh
 sudo chmod +x /home/$USER/backup.sh
-sudo mkdir /home/$USER/.smbcreds
+sudo touch /home/$USER/.smbcreds
 sudo mkdir /mnt/backup
 
 read -p -r "Enter FULL shared folder path. Example: \\192.168.1.7\PrinterBackups\V2: " fullpath
