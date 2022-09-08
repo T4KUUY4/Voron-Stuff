@@ -10,15 +10,15 @@ I´m not responsible for any not functioning printers or lost files!
  Click the link below for your platform if you have difficulties creating one. Also create a **DEDICATED** user. 
  
  * Windows: 
-	.  Create a new user for the shared folder
-	. Example Username=**Printer**, Password=**Backup**
-	. Open  **File Explorer**  and browse to the folder you want to share.
-	.  Right-click it and select  **Properties**.
-	.  Select the **Sharing** tab **> Share.**
-	.  Within the  **Network access**  window, select the new user you just created.
-	.  Click  **Add > Share**.
-	.  Copy the network path.
-	.  Click  **Done**.
+	#.  Create a new user for the shared folder
+	#. Example Username=**Printer**, Password=**Backup**
+	#. Open  **File Explorer**  and browse to the folder you want to share.
+	#.  Right-click it and select  **Properties**.
+	#.  Select the **Sharing** tab **> Share.**
+	#.  Within the  **Network access**  window, select the new user you just created.
+	#.  Click  **Add > Share**.
+	#.  Copy the network path.
+	#.  Click  **Done**.
 			
 	
 * Linux: Refer to https://docs.fedoraproject.org/en-US/quick-docs/samba/
