@@ -1,5 +1,5 @@
 
-# How to automatically backup your printer config files to a network share (NAS, Windows share whatever)
+# Auto-Backup your printer config files to a network share (NAS, Windows share whatever)
 
 ## Disclaimer
 WORK IN PROGRESS. **BACKUP YOUR FILES MANUALLY!!!!**
@@ -9,7 +9,7 @@ I´m not responsible for any not functioning printers or lost files!
  * Network Share (Windows, Linux, Synology). The host has to be online and have a fixed Hostname or IP. 
  Click the link below for your platform if you have difficulties creating one. Also create a **DEDICATED** user. 
  
-	 * Windows: 
+	 `* Windows: 
 			1.  Create a new user for the shared folder
 			2. Example Username=**Printer**, Password=**Backup**
 			3. Open  **File Explorer**  and browse to the folder you want to share.
@@ -21,7 +21,7 @@ I´m not responsible for any not functioning printers or lost files!
 			9.  Click  **Done**.
 	
 	 * Linux: Refer to https://docs.fedoraproject.org/en-US/quick-docs/samba/
-	 * Synology: Refer to https://kb.synology.com/en-global/DSM/help/DSM/AdminCenter/file_share_create?version=7
+	 * Synology: Refer to https://kb.synology.com/en-global/DSM/help/DSM/AdminCenter/file_share_create?version=7`
 
 ## Installation
 
