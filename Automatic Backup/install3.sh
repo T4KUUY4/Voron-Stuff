@@ -11,7 +11,7 @@ echo "$fullpath /mnt/backup cifs users,credentials=/home/$USER/.smbcreds,uid=100
 read -p "Enter newly created username for shared folder: " shareduser
 read -p "Enter password for newly created use for shared folder: " sharedpass
 
-echo "user=$shareduser" | sudo tee -a /home/$USER/.sbmcreds
+echo "user=$shareduser" | sudo tee -a /home/$USER/.smbcreds
 echo "password=$sharedpass" | sudo tee -a /home/$USER/.smbcreds
 
 echo "bash /home/$USER/backup.sh" | sudo tee -a /etc/rc.local
