@@ -1,7 +1,7 @@
 ECHO "Takuyas Auto Backup Installer"
 cd /home/$USER/ 
 sudo wget https://raw.githubusercontent.com/T4KUUY4/Voron-Stuff/main/Automatic%20Backup/backup.sh
-chmod +x /home/$USER/backup.sh
+sudo chmod +x /home/$USER/backup.sh
 sudo mkdir /home/$USER/.smbcreds
 sudo mkdir /mnt/backup
 
