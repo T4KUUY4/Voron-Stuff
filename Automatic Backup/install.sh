@@ -16,5 +16,11 @@ echo "password=$sharedpass" | sudo tee -a /home/$USER/.smbcreds
 
 echo "bash /home/$USER/backup.sh" | sudo tee -a /etc/rc.local
 
+clear
+
+echo "####################################"
+echo "## Thank you for using my script, ##"
+echo "## Takuya ;)                      ##"
+echo "####################################"
 
 
