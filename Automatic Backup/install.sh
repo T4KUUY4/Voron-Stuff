@@ -23,11 +23,11 @@ read -p "Enable Log Backup (yes/no): " log
 read -p "Enable Moonraker Backup (yes/no): " moonrake
 read -p "Enable G-Code File Backup. Warning will take up more space over time (yes/no): " gcod
 
-sed -i "s/KLIPPER=0/KLIPPER='$klipp'/" /home/$USER/backup.sh
-sed -i "s/EXTRAS=0/EXTRAS='$extr'/" /home/$USER/backup.sh
-sed -i "s/LOGS=0/LOGS='$log'/" /home/$USER/backup.sh
-sed -i "s/MOONRAKER=0/MOONRAKER='$moonrake'/" /home/$USER/backup.sh
-sed -i "s/GCODE=0/GCODE='$gcod'/" 
+sed -i "s/KLIPPER='no'/KLIPPER='$klipp'/" /home/$USER/backup.sh
+sed -i "s/EXTRAS='no'/EXTRAS='$extr'/" /home/$USER/backup.sh
+sed -i "s/LOGS='no'/LOGS='$log'/" /home/$USER/backup.sh
+sed -i "s/MOONRAKER='no'/MOONRAKER='$moonrake'/" /home/$USER/backup.sh
+sed -i "s/GCODE='no'/GCODE='$gcod'/" 
 
 
 echo "####################################"
