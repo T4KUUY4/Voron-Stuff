@@ -14,7 +14,7 @@ read -p "Enter password for newly created use for shared folder: " -r sharedpass
 echo "user=$shareduser" | sudo tee -a /home/$USER/.smbcreds
 echo "password=$sharedpass" | sudo tee -a /home/$USER/.smbcreds
 
-echo "bash /home/$USER/backup.sh" | sudo tee -a /etc/rc.local
+echo "sudo bash /home/$USER/backup.sh" | sudo tee -a /etc/rc.local
 clear
 
 read -p "Enable Klipper Backup? (yes/no): " klipp
