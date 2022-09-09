@@ -36,18 +36,7 @@ I´m not responsible for any not functioning printers or lost files!
  
 ## Want a Mainsail/Fluidd Backup Macro?
 **Requires G-Gcode Shell Command Extension (install with KIAUH)
-* Add this to your config
-` [gcode_shell_command BACKUP]
-command: sudo bash /home/$USER/backup.sh
-timeout: 2.
-verbose: False
-`
-`
-[gcode_macro BACKUP]
-gcode:
-	RUN_SHELL_COMMAND CMD=BACKUP
-
-`
+* Download the backup.cfg and include it in your printer.cfg
 
 
 ## Questions? 
