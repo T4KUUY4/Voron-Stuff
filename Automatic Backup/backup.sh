@@ -43,6 +43,7 @@ then
   cp -r /home/$USERNAME/klipper_config "$MNTPATH"
 fi
 
+
 if [ $KLIPPER = "yes" ]
 then
   cp -r /home/$USERNAME/klipper "$MNTPATH"
