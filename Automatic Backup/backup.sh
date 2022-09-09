@@ -1,16 +1,15 @@
 # Takuya´s Backup Script for Auto Backup
 # On Every reboot, selected files will be automatically backuped into timestamped folders.
 
-
-
-#Replace "pi" if you have a different user. "pi" is standard in most installations.
-USERNAME="pi" 
 CURRENTDATE=`date` #DONT EDIT
 MNTPATH=/mnt/backup/$CURRENTDATE #DONT EDIT
 
 ###############
 ## EDIT ZONE ##
 ###############
+
+#Replace "pi" if you have a different user. "pi" is standard in most installations.
+USERNAME="pi" 
 
 # Uncomment by removing # for every backup you want to create. klipper_config is on by default
 
