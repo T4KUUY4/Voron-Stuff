@@ -32,7 +32,7 @@ I´m not responsible for any not functioning printers or lost files!
 * The backup script has some additional configuration options. Open it with `sudo nano /home/$USER/backup.sh`
 *  Follow the instructions given in the script
 * You can also include any other folder if you feel the need. 
-* The Syntax is: `sudo cp -r /YOUR/FOLDER/ "MNTPATH"`
+* The Syntax is: `sudo cp -r /YOUR/FOLDER/ "$MNTPATH"`
  
 ## Want a Mainsail/Fluidd Backup Macro?
 **Requires G-Gcode Shell Command Extension (install with KIAUH)**
