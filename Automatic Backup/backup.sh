@@ -72,5 +72,18 @@ then
 
 fi
 
+###############################
+## CUSTOM BACKUP FOLDER ZONE ##
+###############################
+
+#Example: sudo cp -r /YOUR/FOLDER "$MNTPATH"
+
+
+
+
+
+
+
+
 
 #Made by Takuya#0523 ;)
