@@ -17,6 +17,9 @@ CONFIG="yes"
 #Klipper
 KLIPPER='no'
 
+#Moonraker History
+HISTORY='no'
+
 #Extras (ERCF Scripts, etc. )
 EXTRAS='no'
 
@@ -68,6 +71,12 @@ fi
 if [ $GCODES = "yes" ]
 then
   cp -r /home/$USERNAME/gcode_files "$MNTPATH"
+
+fi
+
+if [ $HISTORY = "yes" ]
+then
+  cp -r /home/$USERNAME/.moonraker_database "$MNTPATH"
 
 fi
 
