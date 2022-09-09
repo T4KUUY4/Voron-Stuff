@@ -34,5 +34,22 @@ I´m not responsible for any not functioning printers or lost files!
 * You can also include any other folder if you feel the need. 
 * The Syntax is: `sudo cp -r /YOUR/FOLDER/ "MNTPATH"`
  
+## Want a Mainsail/Fluidd Backup Macro?
+**Requires G-Gcode Shell Command Extension (install with KIAUH)
+* Add this to your config
+` [gcode_shell_command BACKUP]
+command: sudo bash /home/$USER/backup.sh
+timeout: 2.
+verbose: False
+
+
+[gcode_macro BACKUP]
+gcode:
+	RUN_SHELL_COMMAND CMD=BACKUP
+
+
+`
+
+
 ## Questions? 
 Tag me on Discord: Takuya#0523
