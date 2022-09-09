@@ -13,22 +13,22 @@ USERNAME="pi"
 # Set to 0 to disable
 
 #Klipper Config (default on)
-CONFIG=1
+CONFIG="yes"
 
 #Klipper
-KLIPPER=0
+KLIPPER="no"
 
 #Extras (ERCF Scripts, etc. )
-EXTRAS=0
+EXTRAS="no"
 
 #LOGS
-LOGS=0
+LOGS="no"
 
 #Moonraker and Env
-MOONRAKER=0
+MOONRAKER="no"
 
 #G-Code Files. Warning: Will take up a lot of space over time
-GCODES=0
+GCODES="no"
 
 ###############
 ## DON'T EDIT ZONE ##
@@ -38,34 +38,34 @@ GCODES=0
 CURRENTDATE=$(date)
 MNTPATH=/mnt/backup/$CURRENTDATE 
 
-if [ $CONFIG = 1 ]
+if [ $CONFIG = "yes" ]
 then
   cp -r /home/$USERNAME/klipper_config "$MNTPATH"
 fi
 
-if [ $KLIPPER = 1 ]
+if [ $KLIPPER = "yes" ]
 then
   cp -r /home/$USERNAME/klipper "$MNTPATH"
 fi
 
-if [ $EXTRAS = 1 ]
+if [ $EXTRAS = "yes" ]
 then
   cp -r /home/$USERNAME/klipper/klippy/extas "$MNTPATH"
 fi
 
-if [ $LOGS = 1 ]
+if [ $LOGS = "yes" ]
 then
   cp -r /home/$USERNAME/klipper_logs "$MNTPATH"
 
 fi
 
-if [ $MOONRAKER = 1 ]
+if [ $MOONRAKER = "yes" ]
 then
   cp -r /home/$USERNAME/moon* "$MNTPATH"
 
 fi
 
-if [ $GCODES = 1 ]
+if [ $GCODES = "yes" ]
 then
   cp -r /home/$USERNAME/gcode_files "$MNTPATH"
 
