@@ -21,7 +21,7 @@ read -p "Enable Klipper Backup? (yes/no): " klipp
 read -p "Enable Extras Backup (.py Scripts/ Ercf...) (yes/no): " extr
 read -p "Enable Log Backup (yes/no): " log
 read -p "Enable Moonraker Backup (yes/no): " moonrake
-read -p "Enable G-Code File Backup. Warning will take up more space over time (yes/no): " gcod
+read -p "Enable G-Code File Backup. Warning: Will take up more space over time (yes/no): " gcod
 
 sed -i "s/KLIPPER='no'/KLIPPER='$klipp'/" /home/$USER/backup.sh
 sed -i "s/EXTRAS='no'/EXTRAS='$extr'/" /home/$USER/backup.sh
