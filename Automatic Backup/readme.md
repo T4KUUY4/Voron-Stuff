@@ -35,7 +35,7 @@ I´m not responsible for any not functioning printers or lost files!
 * The Syntax is: `sudo cp -r /YOUR/FOLDER/ "MNTPATH"`
  
 ## Want a Mainsail/Fluidd Backup Macro?
-**Requires G-Gcode Shell Command Extension (install with KIAUH)
+**Requires G-Gcode Shell Command Extension (install with KIAUH)**
 * Download the backup.cfg and include it in your printer.cfg
 
 
