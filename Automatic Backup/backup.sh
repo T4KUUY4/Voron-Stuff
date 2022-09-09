@@ -37,35 +37,35 @@ GCODES="no"
 CURRENTDATE=$(date)
 MNTPATH=/mnt/backup/$CURRENTDATE 
 
-if [ $CONFIG = "yes" ]
+if [ $CONFIG = "y*" ]
 then
   cp -r /home/$USERNAME/klipper_config "$MNTPATH"
 fi
 
 
-if [ $KLIPPER = "yes" ]
+if [ $KLIPPER = "y*" ]
 then
   cp -r /home/$USERNAME/klipper "$MNTPATH"
 fi
 
-if [ $EXTRAS = "yes" ]
+if [ $EXTRAS = "y*" ]
 then
   cp -r /home/$USERNAME/klipper/klippy/extas "$MNTPATH"
 fi
 
-if [ $LOGS = "yes" ]
+if [ $LOGS = "y*" ]
 then
   cp -r /home/$USERNAME/klipper_logs "$MNTPATH"
 
 fi
 
-if [ $MOONRAKER = "yes" ]
+if [ $MOONRAKER = "y*" ]
 then
   cp -r /home/$USERNAME/moon* "$MNTPATH"
 
 fi
 
-if [ $GCODES = "yes" ]
+if [ $GCODES = "y*" ]
 then
   cp -r /home/$USERNAME/gcode_files "$MNTPATH"
 
