@@ -9,8 +9,7 @@
 #Replace "pi" if you have a different user. "pi" is standard in most installations.
 USERNAME="pi" 
 
-# Set to 1 to enable
-# Set to 0 to disable
+# you should understand how to enable and disable it manually...
 
 #Klipper Config (default on)
 CONFIG="yes"
