@@ -103,7 +103,7 @@ fi
 
 if [ $EXTRAS = "yes" ]
 then
-  cp -r /home/$USERNAME/klipper/klippy/extas "$MNTPATH"
+  cp -r /home/$USERNAME/klipper/klippy/extras "$MNTPATH"
 fi
 
 if [ $LOGS = "yes" ]
