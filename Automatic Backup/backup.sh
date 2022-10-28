@@ -36,6 +36,56 @@ GCODES='no'
 ## DON'T EDIT ZONE ##
 ###############
 
+#Argument configuration check
+if [ $CONFIG = "yes" ] || [ $CONFIG = "no" ]
+then
+  :
+else
+  echo -e ${BIRed}Klipper config argument can only be yes/no please correct "CONFIG=" in backup.sh${clear}. && exit
+fi
+
+if [ $KLIPPER = "yes" ] || [ $KLIPPER = "no" ]
+then
+  :
+else
+  echo -e ${BIRed}Klipper config argument can only be yes/no please correct "KLIPPER=" in backup.sh${clear}. && exit
+fi
+
+if [ $EXTRAS = "yes" ] || [ $EXTRAS = "no" ]
+then
+  :
+else
+  echo -e ${BIRed}Extras Backup -.py Scripts/ Ercf...- config argument can only be yes/no please correct "EXTRAS=" in backup.sh${clear}. && exit
+fi
+
+if [ $LOGS = "yes" ] || [ $LOGS = "no" ]
+then
+  :
+else
+  echo -e ${BIRed}Logs config argument can only be yes/no please correct "LOGS=" in backup.sh${clear}. && exit
+fi
+
+if [ $MOONRAKER = "yes" ] || [ $MOONRAKER = "no" ]
+then
+  :
+else
+  echo -e ${BIRed}Moonraker config argument can only be yes/no please correct "MOONRAKER=" in backup.sh${clear}. && exit
+fi
+
+if [ $GCODES = "yes" ] || [ $GCODES = "no" ]
+then
+  :
+else
+  echo -e ${BIRed}GCodes config argument can only be yes/no please correct "GCODES=" in backup.sh${clear}. && exit
+fi
+
+if [ $HISTORY = "yes" ] || [ $HISTORY = "no" ]
+then
+  :
+else
+  echo -e ${BIRed}History config argument can only be yes/no please correct "HISTORY=" in backup.sh${clear}. && exit
+fi
+
 
 CURRENTDATE=$(date)
 MNTPATH=/mnt/backup/$CURRENTDATE 
