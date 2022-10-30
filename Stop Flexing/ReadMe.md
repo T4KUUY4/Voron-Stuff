@@ -24,7 +24,7 @@ Ive personally tested 70A TPU in combination with a PTFE V6 (See Additional Info
 ## Installation
 1. Print all the required parts
 2. Remove the silver knob off the EZR
-3. Insert heatset inserts into main body and retainer parts. 
+3. Insert heatset inserts into main body and retainer parts. They go in deeper than the top surface
 ![](./images/1.jpg)
 4. Use the M3x20 screws in combination with the retainer parts to secure the EZR Extruder to the main body (Slot). Leave slightly loose for now.
 5. Install the main body on your carriage with the 2 M3x18 screws.
