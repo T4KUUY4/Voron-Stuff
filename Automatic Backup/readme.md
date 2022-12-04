@@ -5,6 +5,8 @@
 WORK IN PROGRESS. **BACKUP YOUR FILES MANUALLY!!!!**
 I´m not responsible for any not functioning printers or lost files!
 
+Only compatible with older file strucutre for now
+
 ## Requirements 
  * Network Share (Windows, Linux, Synology). The host has to be online and have a fixed Hostname or IP. 
  Click the link below for your platform if you have difficulties creating one. Also create a **DEDICATED** user. 
